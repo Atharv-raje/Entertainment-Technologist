@@ -38,7 +38,7 @@ Ensure your project has the following structure:
 ```
 project_root/
 │
-├── app.py                 # Main Flask application
+├── app_demo_5.py                 # Main Flask application
 ├── requirements.txt       # Dependencies file
 ├── static/               # For processed videos
 ├── templates/            # HTML templates
@@ -50,7 +50,7 @@ project_root/
 
 ```bash
 # Start the Flask server
-python app.py
+python app_demo_5.py 
 ```
 
 The application will start on `http://localhost:5006`
@@ -118,7 +118,7 @@ The application will start on `http://localhost:5006`
 # Enable debug mode
 export FLASK_ENV=development
 export FLASK_DEBUG=1
-python app.py
+python app_demo_5.py 
 ```
 
 ### Testing Video Processing
